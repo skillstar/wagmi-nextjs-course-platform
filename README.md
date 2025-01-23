@@ -1,1 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-wagmi`](https://github.com/wevm/wagmi/tree/main/packages/create-wagmi).
+# wagmi-nextjs-course-platform
+
+A web3 course platform built with Next.js and Wagmi, allowing users to purchase and access online courses.
