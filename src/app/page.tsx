@@ -53,3 +53,4 @@ function App() {
 }
 
 export default App;
+export const runtime = "edge";
