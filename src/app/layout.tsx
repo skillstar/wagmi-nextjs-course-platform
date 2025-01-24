@@ -6,6 +6,7 @@ import { type ReactNode } from "react";
 import { cookieToInitialState } from "wagmi";
 import { getConfig } from "../wagmi";
 import { Providers } from "./providers";
+import { AlertProvider } from "@/contexts/AlertContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,9 @@ export default function RootLayout(props: { children: ReactNode }) {
   return (
     <html lang="en" className="bg-dark-light">
       <body className={inter.className}>
-        <Providers initialState={initialState}>{props.children}</Providers>
+        <Providers initialState={initialState}>
+          <AlertProvider>{props.children}</AlertProvider>
+        </Providers>
       </body>
     </html>
   );
