@@ -113,3 +113,4 @@ export default function MarketplacePage() {
     </div>
   );
 }
+export const runtime = "edge";

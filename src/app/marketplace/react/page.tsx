@@ -12,3 +12,4 @@ const React = () => {
 };
 
 export default React;
+export const runtime = "edge";

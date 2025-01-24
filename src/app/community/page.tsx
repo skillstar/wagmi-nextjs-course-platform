@@ -88,3 +88,4 @@ export default function Community() {
     </div>
   );
 }
+export const runtime = "edge";
