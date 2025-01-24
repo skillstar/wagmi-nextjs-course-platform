@@ -65,7 +65,7 @@ export default function WalletConnect() {
           onMouseLeave={handleMouseLeave}
         >
           {isConnected && address ? (
-            <div className="px-4 space-y-3 w-64">
+            <div className="px-4 space-y-3 w-64 bg-black/30 rounded">
               <div className="flex items-center space-x-3 btn-sm">
                 {/* 左侧头像 */}
                 <div className="flex-shrink-0">
